@@ -23,13 +23,13 @@ Complexity: Very Strong
 
 Why it’s strong
 
-✅ Length: 11 characters → longer = harder to brute-force.
-✅ Uppercase letters: 2 → adds variety.
-✅ Lowercase letters: 3 → more variety.
-✅ Numbers: 4 → avoids being purely alphabetical.
-✅ Symbols: 1 (@) → increases entropy.
-✅ Middle numbers/symbols: Used within, not just at the end → harder for pattern-based attacks.
-✅ Meets all requirements: Contains upper, lower, numbers, and symbols.
+* Length: 11 characters → longer = harder to brute-force.
+* Uppercase letters: 2 → adds variety.
+* Lowercase letters: 3 → more variety.
+* Numbers: 4 → avoids being purely alphabetical.
+* Symbols: 1 (@) → increases entropy.
+* Middle numbers/symbols: Used within, not just at the end → harder for pattern-based attacks.
+* Meets all requirements: Contains upper, lower, numbers, and symbols.
 
 📌 Result: Balanced mix of all character types + decent length = very strong.
 
@@ -41,27 +41,16 @@ Complexity: Very Weak
 
 Why it’s weak
 
-❌ Length: 8 (minimum acceptable, but still short).
-❌ No uppercase letters.
-❌ No lowercase letters.
-❌ No symbols.
-❌ Only numbers → extremely easy for brute force.
-❌ Common sequence → one of the most frequently used passwords, instantly cracked by a dictionary attack.
+* Length: 8 (minimum acceptable, but still short).
+* No uppercase letters.
+* No lowercase letters.
+* No symbols.
+* Only numbers → extremely easy for brute force.
+* Common sequence → one of the most frequently used passwords, instantly cracked by a dictionary attack.
 
 📌 Result: Even though it has 8 characters, it lacks complexity and is predictable = very weak.
 
-Comparing Both  
-
-Feature	                  Strong Password	           Weak Password
-Length	                       11	                         8
-Uppercase Letters	           ✅ Yes                   	❌ No
-Lowercase Letters	           ✅ Yes	                    ❌ No
-Numbers                      ✅ Yes (4)               	✅ Yes (but predictable)
-Symbols                   	 ✅ Yes (@)	                ❌ No
-Placement Variety	           ✅ Mixed in	              ❌ Sequential
-Guessability	               Very low                  	Extremely high
-
-Key Lesson
+Key Lesson:
 
 * Length + Variety = Strength
 * A password like 12345678 might “look” okay (8 chars long), but since it uses only numbers and is predictable, it’s extremely weak.

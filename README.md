@@ -54,4 +54,4 @@ Key Lesson:
 
 * Length + Variety = Strength
 * A password like 12345678 might “look” okay (8 chars long), but since it uses only numbers and is predictable, it’s extremely weak and it whould  take the 0         seconds to crack.
-* A password like saP_kA1254@ is much stronger because it mixes cases, numbers, and symbols, and doesn’t follow an obvious pattern and it whould take 100 years to    crack
+* A password like raM_2A11@12 is much stronger because it mixes cases, numbers, and symbols, and doesn’t follow an obvious pattern and it whould take 100 years to    crack
